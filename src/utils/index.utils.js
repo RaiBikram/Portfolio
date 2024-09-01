@@ -5,7 +5,7 @@ import project4 from "../media/aboutsec.jpg";
 
 export const HERO_CONTENT = `Crafting efficient and user-friendly web applications with a passion for full stack development.`;
 
-export const ABOUT_TEXT = `Hello! I'm Bikram Rai, an aspiring Full Stack Developer passionate about crafting dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, including JavaScript, Node.js, React, Tailwind CSS, Bootstrap, HTML, CSS, and MongoDB, I'm eager to bring my skills to the professional world and contribute to innovative projects. Committed to continuous learning and excited to collaborate with experienced teams, I'm ready to build impactful solutions and explore new challenges. Let's connect and discover how we can work together!.`;
+export const ABOUT_TEXT = `Hello! I'm Bikram Rai, an aspiring Full Stack Developer passionate about crafting dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, including JavaScript, Node.js, MongoDB, React, HTML, CSS, Bootstrap, and Tailwind CSS. I'm eager to bring my skills to the professional world and contribute to innovative projects. Committed to continuous learning and excited to collaborate with experienced teams, I'm ready to build impactful solutions and explore new challenges. Let's connect and discover how we can work together!.`;
 
 export const EXPERIENCES = [
   {
@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
   },
   // {
   //   title: "Task Management App",
@@ -62,8 +62,8 @@ export const PROJECTS = [
   },
 
   {
-    title:"Weather Wizard",
-    description:"A Weather Wizard",
+    title: "Weather Wizard",
+    description: "A Weather Wizard",
     image: project4,
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
