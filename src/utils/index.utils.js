@@ -60,7 +60,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: portfolio,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal portfolio website showcasing projects, skills, and contact information. This website serves as a platform to highlight my work and demonstrate my abilities as a web developer.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
     link:"https://github.com/ItsBikramRai/Portfolio"
     
