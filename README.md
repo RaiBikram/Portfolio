@@ -1,6 +1,5 @@
 # Portfolio Website
 
-## Description
 A personal portfolio website showcasing projects, skills, and contact information. This website serves as a platform to highlight my work and demonstrate my abilities as a web developer.
 
 ## Technologies Used
