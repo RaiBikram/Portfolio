@@ -1,7 +1,7 @@
-import project1 from "../media/aboutsection.jpg";
+import kinmel from "../media/kinmel.png";
 // import project2 from "../media/aboutpic.jpg";
-import project3 from "../media/about.jpg";
-import project4 from "../media/aboutsec.jpg";
+import portfolio from "../media/portfolio-website.png";
+import weather_widget from "../media/weather-widget.png";
 
 export const HERO_CONTENT = `Crafting efficient and user-friendly web applications with a passion for full stack development.`;
 
@@ -42,7 +42,7 @@ export const ABOUT_TEXT = `Hello! I'm Bikram Rai, an aspiring Full Stack Develop
 export const PROJECTS = [
   {
     title: "Kinmel Website",
-    image: project1,
+    image: kinmel,
     description:
       "Kinmel is an e-commerce website built for the Nepal market. It allows users to browse products, filter by category and price, and add items to their cart. This project was developed as part of a portfolio to demonstrate full-stack development skills, focusing on a seamless shopping experience.",
       
@@ -58,7 +58,7 @@ export const PROJECTS = [
   // },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
@@ -69,7 +69,7 @@ export const PROJECTS = [
   {
     title: "Weather Widget",
     description: "Weather Widget is a simple and responsive weather application built using React. It allows users to search for real-time weather data of any location using an external weather API.",
-    image: project4,
+    image: weather_widget,
     technologies: ["HTML", "CSS", "React"],
     link:"https://github.com/ItsBikramRai/weather-widget"
   },
