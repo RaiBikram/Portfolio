@@ -19,6 +19,6 @@ A personal portfolio website showcasing projects, skills, and contact informatio
 ## Installation
 To view the portfolio website locally, follow these steps:
 
-1. Clone the repository:
+## Clone the repository:
    ```bash
    git clone https://github.com/ItsBikramRai/Portfolio
