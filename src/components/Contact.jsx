@@ -15,7 +15,7 @@ export default function Contact() {
         <br />
        
         <p className=" pt-5 font-semibold">&copy;2024, <a href="https://bikramrai-portfolio.vercel.app">Bikram Rai</a></p>
-  
+  <br />
         
         <span>
           <div style={{ fontSize: "13px" }}>
