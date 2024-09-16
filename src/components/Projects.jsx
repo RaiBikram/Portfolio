@@ -18,7 +18,8 @@ export default function Projects() {
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{proj.title}</h6>
+              <a className="mb-2 font-semibold" href={proj.link}>{proj.title}</a>
+              
               <p className="mb-4 text-neutral-400">{proj.description}</p>
               {proj.technologies.map((tech, index) => (
                 <span
@@ -28,6 +29,7 @@ export default function Projects() {
                   {tech}
                 </span>
               ))}
+                
             </div>
           </div>
         ))}
