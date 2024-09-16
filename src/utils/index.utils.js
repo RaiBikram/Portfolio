@@ -47,7 +47,7 @@ export const PROJECTS = [
       "Kinmel is an e-commerce website built for the Nepal market. It allows users to browse products, filter by category and price, and add items to their cart. This project was developed as part of a portfolio to demonstrate full-stack development skills, focusing on a seamless shopping experience.",
       
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
-    link:"#"
+    link:"https://github.com/ItsBikramRai/Kinmel"
   },
   // {
   //   title: "Task Management App",
@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    link:"https://bikramrai-portfolio.vercel.app"
+    link:"https://github.com/ItsBikramRai/Portfolio"
     
   },
 
@@ -71,7 +71,7 @@ export const PROJECTS = [
     description: "Weather Widget is a simple and responsive weather application built using React. It allows users to search for real-time weather data of any location using an external weather API.",
     image: project4,
     technologies: ["HTML", "CSS", "React"],
-    link:"https://weather-widget-git-main-itsbikramrais-projects.vercel.app"
+    link:"https://github.com/ItsBikramRai/weather-widget"
   },
   // {
   //   title: "Blogging Platform",
