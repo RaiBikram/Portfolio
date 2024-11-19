@@ -15,14 +15,14 @@ export default function Contact() {
         <br />
 
         <p className=" pt-5 font-semibold">
-          &copy;2024, <a href="www.bikram-rai.com.np">Bikram Rai</a>
+          &copy;2024, <a href="https://bikram-rai.com.np">Bikram Rai</a>
         </p>
         <br />
 
         <span>
           <div style={{ fontSize: "13px" }}>
             Designed & Developed by: &nbsp;
-            <a style={{ color: "#4770b3" }} href="www.bikram-rai.com.np">
+            <a style={{ color: "#4770b3" }} href="https://bikram-rai.com.np">
               Bikram Rai
             </a>
           </div>
