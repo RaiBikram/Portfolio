@@ -13,14 +13,18 @@ export default function Contact() {
         </a>
         <br />
         <br />
-       
-        <p className=" pt-5 font-semibold">&copy;2024, <a href="https://bikramrai-portfolio.vercel.app">Bikram Rai</a></p>
-  <br />
-        
+
+        <p className=" pt-5 font-semibold">
+          &copy;2024, <a href="www.bikram-rai.com.np">Bikram Rai</a>
+        </p>
+        <br />
+
         <span>
           <div style={{ fontSize: "13px" }}>
             Designed & Developed by: &nbsp;
-            <a style={{color:"#4770b3"}} href="https://bikramrai-portfolio.vercel.app">Bikram Rai</a>
+            <a style={{ color: "#4770b3" }} href="www.bikram-rai.com.np">
+              Bikram Rai
+            </a>
           </div>
         </span>
       </div>
