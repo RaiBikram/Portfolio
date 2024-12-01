@@ -19,7 +19,7 @@ export default function Navbar() {
         <a href="https://github.com/ItsBikramRai">
           <FaSquareGithub />
         </a>
-        <a href="https://x.com/BikramRai_">
+        <a href="https://x.com/RaiBkram">
           <FaSquareXTwitter />
         </a>
       </div>
