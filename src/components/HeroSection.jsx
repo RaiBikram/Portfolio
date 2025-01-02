@@ -18,7 +18,7 @@ export default function HeroSection() {
             >
               Full Stack Developer
             </span>
-            <p className="my-2 max-w-xl py-6  font-light text-gray-400">
+            <p className="my-2 max-w-xl py-6  text-zinc-400 text-sm md:text-base">
               {HERO_CONTENT} <br />
             </p>
           </div>
