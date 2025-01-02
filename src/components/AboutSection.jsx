@@ -9,9 +9,9 @@ export default function AboutSection() {
     <div className="border-b border-neutral-900 pb-8 flex flex-col items-center">
       <div className="max-w-5xl w-full flex flex-col lg:flex-row items-center sm:text-start lg:items-start lg:justify-between py-16 px-6">
         {/* Text Section */}
-        <div className="lg:w-2/3 w-full text-start lg:text-left">
-          <h3 className="font-semibold text-4xl pb-6 text-red-300">
-            Hey! I'm Bikram Rai, and I'm a full-stack engineer.
+        <div className="lg:w-2/3 w-full text-start lg:text-left ">
+          <h3 className="font-semibold text-4xl pb-6 text-red-300 ">
+            Hey! I'm Bikram Rai,<br /> and  I'm a Full-Stack Engineer.
           </h3>
           <p className=" text-zinc-400 text-sm md:text-base sm:text-start">
             {ABOUT_TEXT}
@@ -24,8 +24,8 @@ export default function AboutSection() {
             className="rounded-full shadow-lg"
             src={profilePic}
             alt="Profile Picture"
-            width={200}
-            height={200}
+            width={250}
+            height={250}
           />
         </div>
       </div>
