@@ -7,13 +7,13 @@ import profilePic from "../media/bikram.jpeg";
 export default function AboutSection() {
   return (
     <div className="border-b border-neutral-900 pb-8 flex flex-col items-center">
-      <div className="max-w-5xl w-full flex flex-col lg:flex-row items-center lg:items-start lg:justify-between py-16 px-6">
+      <div className="max-w-5xl w-full flex flex-col lg:flex-row items-center sm:text-start lg:items-start lg:justify-between py-16 px-6">
         {/* Text Section */}
-        <div className="lg:w-2/3 w-full text-center lg:text-left">
+        <div className="lg:w-2/3 w-full text-start lg:text-left">
           <h3 className="font-semibold text-4xl pb-6 text-red-300">
             Hey! I'm Bikram Rai, and I'm a full-stack engineer.
           </h3>
-          <p className=" text-zinc-400 text-sm md:text-base">
+          <p className=" text-zinc-400 text-sm md:text-base sm:text-start">
             {ABOUT_TEXT}
           </p>
         </div>
