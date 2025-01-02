@@ -3,22 +3,24 @@ import { PROJECTS } from "../utils/index.utils";
 
 export default function Projects() {
   return (
-    <div className="border-b border-neutral-900 pb-4 ">
-      <h2 className="py-10 text-center text-3xl">Projects</h2>
-      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex ">
+    <div className="border-b border-neutral-900 pb-20 pt-24">
+      {/* <h2 className="py-10 text-center text-3xl">Projects</h2> */}
+      <div className="flex flex-wrap gap-6 justify-center ">
         {PROJECTS.map((proj, index) => (
           <div
             key={index}
-            className="bg-neutral-800 rounded-lg shadow-md overflow-hidden"
+            className="bg-neutral-800 rounded-lg shadow-md overflow-hidden w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1rem)] "
           >
             <img
               src={proj.image}
               alt={proj.title}
-              className="w-full h-32 object-cover"
+              className="w-full h-20 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">{proj.title}</h3>
-              <p className="text-sm text-neutral-400 mb-3">{proj.description}</p>
+              <p className="text-sm text-neutral-400 mb-3">
+                {proj.description}
+              </p>
               <div className="flex flex-wrap mb-3">
                 {proj.technologies.map((tech, techIndex) => (
                   <span

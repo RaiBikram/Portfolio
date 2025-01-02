@@ -5,7 +5,7 @@ import weather_widget from "../media/weather-widget.png";
 
 export const HERO_CONTENT = `Crafting efficient and user-friendly web applications with a passion for full stack development.`;
 
-export const ABOUT_TEXT = `Hello! I'm Bikram Rai, an aspiring Full Stack Developer passionate about crafting dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, including JavaScript, Node.js, MongoDB, React, HTML, CSS, Bootstrap, and Tailwind CSS. I'm eager to bring my skills to the professional world and contribute to innovative projects. Committed to continuous learning and excited to collaborate with experienced teams, I'm ready to build impactful solutions and explore new challenges. Let's connect and discover how we can work together!.`;
+export const ABOUT_TEXT = `I'm Bikram Rai, an aspiring Full Stack Developer passionate about crafting dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, including JavaScript, Node.js, MongoDB, React, HTML, CSS, Bootstrap, and Tailwind CSS. I'm eager to bring my skills to the professional world and contribute to innovative projects. Committed to continuous learning and excited to collaborate with experienced teams, I'm ready to build impactful solutions and explore new challenges. Let's connect and discover how we can work together!.`;
 
 // export const EXPERIENCES = [
 //   {

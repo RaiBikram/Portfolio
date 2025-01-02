@@ -9,8 +9,8 @@ import { IoLogoJavascript } from "react-icons/io";
 
 export default function Technologies() {
   return (
-    <div className="border-b border-neutral-800 pb-24">
-      <h2 className="my-20 text-center text-4xl">Technologies</h2>
+    <div className=" pb-24">
+      <h2 className="my-20 text-center text-4xl font-semibold">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           < IoLogoJavascript className="text-7xl text-yellow-500 " />
