@@ -29,7 +29,6 @@ export default function App() {
             <Route path="/about" element={<AboutSection />} />
             <Route path="/technologies" element={<Technologies />} />
             <Route path="/projects" element={<Projects />} />
-         
           </Routes>
           <Footer />
         </div>

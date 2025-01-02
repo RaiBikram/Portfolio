@@ -13,7 +13,9 @@ export default function AboutSection() {
           <h3 className="font-semibold text-4xl pb-6 text-red-300">
             Hey! I'm Bikram Rai, and I'm a full-stack engineer.
           </h3>
-          <p className="text-neutral-300 text-base leading-relaxed">{ABOUT_TEXT}</p>
+          <p className="text-neutral-300 text-base leading-relaxed">
+            {ABOUT_TEXT}
+          </p>
         </div>
 
         {/* Profile Picture */}
