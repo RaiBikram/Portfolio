@@ -14,13 +14,16 @@ export default function Projects() {
             <img
               src={proj.image}
               alt={proj.title}
-              className="w-full h-20 object-cover"
+              className="w-full h-40 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">{proj.title}</h3>
               <p className="text-sm text-neutral-400 mb-3">
-                {proj.description}
+                {proj.description.length > 50
+                  ? `${proj.description.slice(0, 150)}...`
+                  : proj.description}
               </p>
+
               <div className="flex flex-wrap mb-3">
                 {proj.technologies.map((tech, techIndex) => (
                   <span
