@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Footer from "./Layout/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageNotFound from "./PageNotFound";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           {/* Routes */}
           <Routes>
             <Route path="/" element={<HeroSection />} />
+            <Route path="*" element={<PageNotFound />} />
             <Route path="/about" element={<AboutSection />} />
             <Route path="/technologies" element={<Technologies />} />
             <Route path="/projects" element={<Projects />} />
