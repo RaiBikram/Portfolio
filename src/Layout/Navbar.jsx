@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="flex items-center justify-center flex-wrap mt-6 ">
-      <nav className=" flex  items-center justify-center gap-10 font-extrabolds text-xl bg-green-800 rounded-2xl lg:w-1/3 h-16 p-3 w-full md:1/3 ">
+      <nav className=" flex  items-center justify-center gap-10 font-extrabolds text-xl bg-green-800 rounded-2xl lg:w-1/3 h-16 p-3 w-full md:w-2/3 sm:w-2/3">
         <NavLink to={"/"} className={"hover:bg-slate-800 hover:rounded-lg p-2"}>
           Home
         </NavLink>
