@@ -1,8 +1,10 @@
 import React from "react";
 import { EXPERIENCES } from "../utils/index.utils";
+import Layout from "../Layout/Layout";
 
 export default function Experiences() {
   return (
+
     <div className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">Experience</h1>
       <div>
@@ -30,5 +32,6 @@ export default function Experiences() {
         ))}
       </div>
     </div>
+
   );
 }

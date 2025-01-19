@@ -10,7 +10,6 @@ export default function Contact() {
       <div className="text-center tracking-tighter">
         {/* <p className="my-4 ">{CONTACT.address}</p>
         <p className="my-4 ">{CONTACT.phoneNo}</p> */}
-      
 
         {/* <span>
           <div style={{ fontSize: "13px" }}>
@@ -36,9 +35,7 @@ export default function Contact() {
             <FaSquareXTwitter />
           </a>
         </div>
-        <p className="mb-2">
-          {CONTACT.email}
-        </p>
+        <p className="mb-2">{CONTACT.email}</p>
         <p className=" font-semibold">
           &copy;2024, <a href="https://bikram-rai.com.np">Bikram Rai</a>
         </p>

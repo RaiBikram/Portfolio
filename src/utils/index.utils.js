@@ -1,5 +1,5 @@
 import kinmel from "../media/kinmel.png";
-// import project2 from "../media/aboutpic.jpg";
+import OAuthGoogle from "../media/oauth.png";
 import portfolio from "../media/portfolio-website.png";
 import weather_widget from "../media/weather-widget.png";
 
@@ -76,15 +76,20 @@ export const PROJECTS = [
     link:"https://weather-widget-zeta-steel.vercel.app",
     github:"https://github.com/ItsBikramRai/weather-widget"
   },
-  // {
-  //   title: "Blogging Platform",
-  //   // image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  // },
+  {
+    title: "AuthPlus: Google and Email-Based Authentication",
+    image: OAuthGoogle,
+    description: 
+      "AuthPlus is a robust authentication platform designed to manage user login, signup, password reset, and email verification. This platform supports both **Google OAuth** and **manual authentication** methods, giving users the flexibility to log in using their Google account or with their email and password. With seamless integration of **Passport.js**, users can securely sign up, verify their email, and reset forgotten passwords with ease. Whether it's for a web application or service, AuthPlus provides a reliable, secure, and customizable authentication solution.",
+    technologies: ["Node.js", "Express", "MongoDB", "Passport.js", "Tailwind", "OAuth 2.0"],
+    link:"https://google-oauth-blush.vercel.app",
+    github:"https://github.com/ItsBikramRai/googleAuth"
+  }
+  
 ];
 
+
+//contact 
 export const CONTACT = {
   address: "Kathmandu, Nepal ",
   // phoneNo: "+9779863963772",
