@@ -4,6 +4,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 export default function Contact() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className=" py-16">
       {/* <h1 className="my-6 text-center text-4xl">Get in Touch </h1> */}
@@ -36,9 +37,9 @@ export default function Contact() {
           </a>
         </div>
         <p className="mb-2">{CONTACT.email}</p>
-        <p className=" font-semibold">
-          &copy;2024, <a href="https://bikram-rai.com.np">Bikram Rai</a>
-        </p>
+        <p className="font-semibold">
+        &copy; {currentYear}, <a href="https://bikram-rai.com.np">Bikram Rai</a>
+      </p>
       </div>
     </div>
   );
