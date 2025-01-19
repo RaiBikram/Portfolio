@@ -34,13 +34,13 @@ export default function Technologies() {
           <RiTailwindCssFill className="text-7xl  text-blue-500" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaGitAlt className="text-7xl  text-blue-500" />
+          <FaGitAlt className="text-7xl  text-red-600" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiTypescript className="text-7xl  text-blue-500" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaJava className="text-7xl  text-red-600" />
+          <FaJava className="text-7xl  text-red-400" />
         </div>
        
       </div>
