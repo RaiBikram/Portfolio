@@ -11,8 +11,9 @@ export default function Projects() {
     description="Explore the projects by Bikram Rai, a Full-Stack Software Engineer specializing in MERN stack development. View web applications, backend systems, and innovative solutions that showcase his expertise."
   >
   
-      <div className="border-b border-neutral-900 pb-20 pt-24">
-        {/* <h2 className="py-10 text-center text-3xl">Projects</h2> */}
+      <div className="border-b border-neutral-900 pb-20 pt-12">
+        <h2 className="text-center text-3xl">My Recent <span className="font-semibold text-blue-500">Work</span></h2>
+        <p className="text-slate-300 pb-16 text-center font-extralight text-sm pt-3">Here are a few projects I've worked on recently.</p>
         <div className="flex flex-wrap gap-6 justify-center ">
           {PROJECTS.map((proj, index) => (
             <div

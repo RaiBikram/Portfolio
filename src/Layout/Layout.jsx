@@ -12,7 +12,9 @@ export default function Layout({
   return (
     <div
       className="overflow-x-hidden text-white antialiased 
-    selection:bg-cyan-300 selection:text-cyan-900"
+    selection:bg-cyan-300 selection:text-cyan-900
+    "
+
     >
       {/* Background */}
       <div className="fixed top-0 -z-10 h-full w-full">

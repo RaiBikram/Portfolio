@@ -3,7 +3,6 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
-import Footer from "./Layout/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageNotFound from "./PageNotFound";
 

@@ -40,6 +40,7 @@ export const ABOUT_TEXT = `I'm Bikram Rai, an aspiring Full Stack Developer pass
 // ];
 
 export const PROJECTS = [
+  
   {
     title: "Kinmel Website",
     image: kinmel,
@@ -49,6 +50,15 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
     link:"https://kinmel.onrender.com",
     github:"https://github.com/ItsBikramRai/Kinmel"
+  },
+  {
+    title: "AuthPlus: Google and Email-Based Authentication",
+    image: OAuthGoogle,
+    description: 
+      "AuthPlus is a robust authentication platform designed to manage user login, signup, password reset, and email verification. This platform supports both **Google OAuth** and **manual authentication** methods, giving users the flexibility to log in using their Google account or with their email and password. With seamless integration of **Passport.js**, users can securely sign up, verify their email, and reset forgotten passwords with ease. Whether it's for a web application or service, AuthPlus provides a reliable, secure, and customizable authentication solution.",
+    technologies: ["Node.js", "Express", "MongoDB", "Passport.js", "Tailwind", "OAuth 2.0"],
+    link:"https://google-oauth-blush.vercel.app",
+    github:"https://github.com/ItsBikramRai/googleAuth"
   },
   // {
   //   title: "Task Management App",
@@ -76,16 +86,6 @@ export const PROJECTS = [
     link:"https://weather-widget-zeta-steel.vercel.app",
     github:"https://github.com/ItsBikramRai/weather-widget"
   },
-  {
-    title: "AuthPlus: Google and Email-Based Authentication",
-    image: OAuthGoogle,
-    description: 
-      "AuthPlus is a robust authentication platform designed to manage user login, signup, password reset, and email verification. This platform supports both **Google OAuth** and **manual authentication** methods, giving users the flexibility to log in using their Google account or with their email and password. With seamless integration of **Passport.js**, users can securely sign up, verify their email, and reset forgotten passwords with ease. Whether it's for a web application or service, AuthPlus provides a reliable, secure, and customizable authentication solution.",
-    technologies: ["Node.js", "Express", "MongoDB", "Passport.js", "Tailwind", "OAuth 2.0"],
-    link:"https://google-oauth-blush.vercel.app",
-    github:"https://github.com/ItsBikramRai/googleAuth"
-  }
-  
 ];
 
 
