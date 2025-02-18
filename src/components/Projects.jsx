@@ -29,7 +29,7 @@ export default function Projects() {
                 <h3 className="text-lg font-semibold mb-2">{proj.title}</h3>
                 <p className="text-sm text-neutral-400 mb-3">
                   {proj.description.length > 50
-                    ? `${proj.description.slice(0, 150)}...`
+                    ? `${proj.description.slice(0, 250)}...`
                     : proj.description}
                 </p>
 
