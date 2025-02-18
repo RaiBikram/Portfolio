@@ -24,7 +24,7 @@ export default function AboutSection() {
         <div className=" w-full flex flex-col lg:flex-row items-center lg:items-start justify-between py-10 lg:gap-20 gap-8">
           <div className="lg:w-2/3 w-full text-center lg:text-left">
             <h3 className="font-semibold text-2xl pb-4 text-red-300">
-              Hey! I'm Bikram Rai, and I'm a Full-Stack Engineer.
+              Hey! I'm Bikram Rai.
             </h3>
             <p className="text-zinc-400 text-sm md:text-base">{ABOUT_TEXT}</p>
           </div>

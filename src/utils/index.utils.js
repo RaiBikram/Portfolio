@@ -4,9 +4,9 @@ import portfolio from "../media/portfolio-website.png";
 import weather_widget from "../media/weather-widget.png";
 import  AI_Health_Assistant from "../media/ai-health-asistant.png"
 
-export const HERO_CONTENT = `Crafting efficient and user-friendly web applications with a passion for full stack development.`;
+export const HERO_CONTENT = `A passionate MERN stack developer eager to build dynamic and efficient web applications, constantly learning and improving to create innovative solutions.`;
 
-export const ABOUT_TEXT = `I’m Bikram Rai, a MERN stack developer with experience in MongoDB, Express, React, Node.js, and Next.js. Passionate about learning and building efficient, scalable web applications, I’m always eager to explore new technologies and create innovative solutions. Let’s connect and build something impactful!`;
+export const ABOUT_TEXT = `A MERN stack developer with experience in MongoDB, Express, React, Node.js, and Next.js. Passionate about learning and building efficient, scalable web applications, I’m always eager to explore new technologies and create innovative solutions. Let’s connect and build something impactful!`;
 
 // export const EXPERIENCES = [
 //   {

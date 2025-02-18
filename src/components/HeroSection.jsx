@@ -21,7 +21,7 @@ export default function HeroSection() {
               </span>
             </h1>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent pt-3">
-              Full Stack Developer
+              MERN Stack Developer  |  Software Engineer
             </span>
             <div className="flex flex-wrap items-start justify-start pt-5">
               <p className="my-2 max-w-xl py-6 text-zinc-400 text-sm md:text-base">
