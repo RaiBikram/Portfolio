@@ -11,16 +11,16 @@ export default function HeroSection() {
       author="Bikram Rai"
       description="Hi, I'm Bikram Rai, a passionate Software Engineer. I specialize in building dynamic and responsive web applications using the MERN stack and other modern technologies."
     >
-      <div className="border-b border-neutral-900 pb-10 flex flex-col px-6 min-h-screen">
+      <div className="border-b border-neutral-900 pb-10 flex flex-col px-6 min-h-screen w-full">
         <div className="flex flex-wrap items-start justify-start pt-5">
           <div className="w-full lg:w-1/2">
-            <h1 className="pb-16 text-4xl font-normal tracking-tight lg:mt-16 lg:text-4xl text-red-400 pt-3">
+            <h1 className="pb-32 text-4xl font-normal tracking-tight lg:mt-16 lg:text-4xl text-red-400 pt-3 ">
               Hi,{" "}
               <span className="font-semibold bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
                 I'm Bikram Rai
               </span>
             </h1>
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent pt-3">
+            <span className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent pt-3">
               MERN Stack Developer  |  Software Engineer
             </span>
             <div className="flex flex-wrap items-start justify-start pt-5">

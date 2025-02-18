@@ -2,11 +2,11 @@ import kinmel from "../media/kinmel.png";
 import OAuthGoogle from "../media/oauth.png";
 import portfolio from "../media/portfolio-website.png";
 import weather_widget from "../media/weather-widget.png";
-import  AI_Health_Assistant from "../media/ai-health-asistant.png"
+import AI_Health_Assistant from "../media/ai-health-asistant.png";
 
-export const HERO_CONTENT = `A passionate MERN stack developer eager to build dynamic and efficient web applications, constantly learning and improving to create innovative solutions.`;
+export const HERO_CONTENT = `A passionate MERN stack developer focused on building dynamic, efficient web applications and always eager to learn and innovate.s`;
 
-export const ABOUT_TEXT = `A MERN stack developer with experience in MongoDB, Express, React, Node.js, and Next.js. Passionate about learning and building efficient, scalable web applications, I’m always eager to explore new technologies and create innovative solutions. Let’s connect and build something impactful!`;
+export const ABOUT_TEXT = `As a MERN stack developer with expertise in MongoDB, Express, React, Node.js, and Next.js, I’m passionate about building efficient, scalable web applications. Always eager to learn and explore new technologies, I strive to create innovative solutions. Let’s connect and build something impactful!`;
 
 // export const EXPERIENCES = [
 //   {
