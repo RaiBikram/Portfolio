@@ -4,7 +4,7 @@ import portfolio from "../media/portfolio-website.png";
 import weather_widget from "../media/weather-widget.png";
 import AI_Health_Assistant from "../media/ai-health-asistant.png";
 
-export const HERO_CONTENT = `A passionate MERN stack developer focused on building dynamic, efficient web applications and always eager to learn and innovate.s`;
+export const HERO_CONTENT = `A passionate MERN stack developer focused on building dynamic, efficient web applications and always eager to learn and innovate.`;
 
 export const ABOUT_TEXT = `As a MERN stack developer with expertise in MongoDB, Express, React, Node.js, and Next.js, I’m passionate about building efficient, scalable web applications. Always eager to learn and explore new technologies, I strive to create innovative solutions. Let’s connect and build something impactful!`;
 
