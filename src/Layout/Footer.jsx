@@ -3,6 +3,8 @@ import { CONTACT } from "../utils/index.utils";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+
+
 export default function Contact() {
   const currentYear = new Date().getFullYear();
   return (
@@ -29,7 +31,7 @@ export default function Contact() {
             <FaLinkedin />
           </a>
 
-          <a href="https://github.com/ItsBikramRai">
+          <a href="https://github.com/RaiBikram">
             <FaSquareGithub />
           </a>
           <a href="https://x.com/RaiBkram">
@@ -38,8 +40,9 @@ export default function Contact() {
         </div>
         <p className="mb-2">{CONTACT.email}</p>
         <p className="font-semibold">
-        &copy; {currentYear}, <a href="https://bikram-rai.com.np">Bikram Rai</a>
-      </p>
+          &copy; {currentYear},{" "}
+          <a href="https://bikram-rai.com.np">Bikram Rai</a>
+        </p>
       </div>
     </div>
   );

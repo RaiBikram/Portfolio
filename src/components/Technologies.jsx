@@ -9,6 +9,7 @@ import { SiTypescript } from "react-icons/si";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { FaUbuntu } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export default function Technologies() {
   return (
@@ -43,6 +44,10 @@ export default function Technologies() {
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <FaJava className="text-7xl  text-red-400" />
+        </div>
+       
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <BiLogoPostgresql className="text-7xl  text-blue-500" />
         </div>
        
       </div>
