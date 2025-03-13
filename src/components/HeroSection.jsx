@@ -11,34 +11,34 @@ export default function HeroSection() {
       author="Bikram Rai"
       description="Hi, I'm Bikram Rai, a passionate Software Engineer. I specialize in building dynamic and responsive web applications using the MERN stack and other modern technologies."
     >
-      <div className="border-b border-neutral-900 pb-10 flex flex-col px-6 min-h-screen w-full">
-        <div className="flex flex-wrap items-start justify-start pt-5">
-          <div className="w-full lg:w-1/2">
-            <h1 className="pb-32 text-4xl font-normal tracking-tight lg:mt-16 lg:text-4xl text-red-400 pt-3 ">
+      <div className="border-b border-neutral-900 pb-10 px-6 min-h-screen flex items-center w-full">
+        <div className="flex flex-col-reverse lg:flex-row  justify-between gap-10 w-full">
+          
+          {/* Left Text Content */}
+          <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
+            <h1 className="text-4xl font-semibold tracking-tight text-red-400">
               Hi,{" "}
-              <span className="font-semibold bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
                 I'm Bikram Rai
               </span>
             </h1>
-            <span className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent pt-3">
-              MERN Stack Developer  |  Software Engineer
-            </span>
-            <div className="flex flex-wrap items-start justify-start pt-5">
-              <p className="my-2 max-w-xl py-6 text-zinc-400 text-sm md:text-base">
-                {HERO_CONTENT} <br />
-              </p>
-            </div>
+
+            <h2 className="text-xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
+              MERN Stack Developer | Software Engineer
+            </h2>
+
+            <p className="text-zinc-400 text-sm md:text-base max-w-xl mx-auto lg:mx-0">
+              {HERO_CONTENT}
+            </p>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-16 p-20">
-            <div className="flex justify-center">
-              <img
-                className="rounded-full"
-                src={profilePic}
-                alt="Profile Picture"
-                width={250}
-                height={250}
-              />
-            </div>
+
+          {/* Right Image */}
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={profilePic}
+              alt="Profile Picture"
+              className="rounded-full shadow-lg w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover"
+            />
           </div>
         </div>
       </div>

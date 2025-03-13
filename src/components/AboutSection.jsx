@@ -13,15 +13,15 @@ export default function AboutSection() {
       description="Learn more about Bikram Rai, a passionate Software Engineer specializing in MERN stack development. Discover his skills, professional journey, and commitment to crafting impactful web solutions."
     >
       <div className="border-b border-neutral-900 pb-10 flex flex-col px-6">
-        {/* Text Section */}
-        <div className="flex flex-wrap items-start justify-start pt-5">
-          <h1 className="w-full text-4xl py-8 text-center sm:text-left sm:py-16">
-            About <span className="font-semibold text-blue-500">Me</span>
+        {/* Heading Section */}
+        <div className="flex justify-center items-center pt-5">
+          <h1 className="text-4xl font-semibold py-8 text-center">
+            About <span className="text-blue-500">Me</span>
           </h1>
         </div>
 
         {/* Content Section */}
-        <div className=" w-full flex flex-col lg:flex-row items-center lg:items-start justify-between py-10 lg:gap-20 gap-8">
+        <div className="w-full flex flex-col lg:flex-row items-center lg:items-start justify-between py-10 lg:gap-20 gap-8">
           <div className="lg:w-2/3 w-full text-center lg:text-left">
             <h3 className="font-semibold text-2xl pb-4 text-red-300">
               Hey! I'm Bikram Rai

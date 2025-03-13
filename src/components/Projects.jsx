@@ -10,7 +10,7 @@ export default function Projects() {
       author="Bikram Rai"
       description="Explore the projects by Bikram Rai, a Full-Stack Software Engineer specializing in MERN stack development. View web applications, backend systems, and innovative solutions that showcase his expertise."
     >
-      <div className="border-b border-neutral-900 pb-20 pt-12">
+      <div className="border-b border-neutral-900 pb-20 pt-14">
         <h2 className="text-center text-2xl sm:text-3xl">
           My Recent <span className="font-semibold text-blue-500">Work</span>
         </h2>
