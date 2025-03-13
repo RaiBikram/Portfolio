@@ -3,8 +3,6 @@ import { CONTACT } from "../utils/index.utils";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { CiMail } from "react-icons/ci";
-import { IoMdMail } from "react-icons/io";
 
 export default function Contact() {
   const currentYear = new Date().getFullYear();

@@ -3,34 +3,35 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="pt-10 w-full flex items-center justify-center flex-wrap">
-      <nav
-        className="w-full flex items-center justify-center gap-10 font-semibold text-xl rounded-2xl transition-all duration-300 lg:w-1/3 h-16 p-3 md:w-2/3 sm:w-2/3 bg-green-900"
-      >
+    <div className="pt-6 w-full flex justify-center px-4">
+      <nav className="w-full md:w-1/2 lg:w-1/2 max-w-xs flex items-center justify-evenly bg-green-900 h-11 rounded-full shadow-md text-xs sm:text-sm font-extrabold">
         <NavLink
-          to={"/"}
+          to="/"
           className={({ isActive }) =>
-            `hover:bg-slate-800 hover:rounded-lg p-2 ${isActive ? "bg-slate-700 rounded-lg " : ""}`
+            `px-2 py-1 flex items-center rounded-full transition duration-200 ${
+              isActive ? "bg-green-800 text-white" : "text-white/90 hover:bg-green-800/70"
+            }`
           }
-          aria-label="Navigate to Home page"
         >
           Home
         </NavLink>
         <NavLink
-          to={"/about"}
+          to="/about"
           className={({ isActive }) =>
-            `hover:bg-slate-800 hover:rounded-lg p-2 ${isActive ? "bg-slate-700 rounded-lg " : ""}`
+            `px-2 py-1 flex items-center rounded-full transition duration-200 ${
+              isActive ? "bg-green-800 text-white" : "text-white/90 hover:bg-green-800/70"
+            }`
           }
-          aria-label="Navigate to About page"
         >
           About
         </NavLink>
         <NavLink
-          to={"/projects"}
+          to="/projects"
           className={({ isActive }) =>
-            `hover:bg-slate-800 hover:rounded-lg p-2 ${isActive ? "bg-slate-700 rounded-lg " : ""}`
+            `px-2 py-1 flex items-center rounded-full transition duration-200 ${
+              isActive ? "bg-green-800 text-white" : "text-white/90 hover:bg-green-800/70"
+            }`
           }
-          aria-label="Navigate to Projects page"
         >
           Projects
         </NavLink>
