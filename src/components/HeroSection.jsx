@@ -6,7 +6,7 @@ import Layout from "../Layout/Layout";
 export default function HeroSection() {
   return (
     <Layout
-      title="Bikram Rai - Software Engineer"
+      title="Bikram Rai | Software Engineer"
       keyword="Bikram Rai, Software Engineer, MERN Stack Developer, Backend Developer, Web Developer, JavaScript, Node.js, React.js, Portfolio"
       author="Bikram Rai"
       description="Hi, I'm Bikram Rai, a passionate Software Engineer. I specialize in building dynamic and responsive web applications using the MERN stack and other modern technologies."

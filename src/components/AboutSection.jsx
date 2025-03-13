@@ -7,7 +7,7 @@ import Layout from "../Layout/Layout";
 export default function AboutSection() {
   return (
     <Layout
-      title="Bikram Rai - About"
+      title="Bikram Rai | About"
       keyword="Bikram Rai, Software Engineer, MERN Stack Developer, Software Engineer Portfolio, Backend Developer, Web Development, JavaScript Developer"
       author="Bikram Rai"
       description="Learn more about Bikram Rai, a passionate Software Engineer specializing in MERN stack development. Discover his skills, professional journey, and commitment to crafting impactful web solutions."

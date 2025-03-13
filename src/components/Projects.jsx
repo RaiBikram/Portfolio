@@ -5,7 +5,7 @@ import Layout from "../Layout/Layout";
 export default function Projects() {
   return (
     <Layout
-      title="Bikram Rai - Projects"
+      title="Bikram Rai | Projects"
       keyword="Bikram Rai Projects, Software Engineering Projects, Full-Stack Projects, MERN Stack Portfolio, React Projects, Node.js Applications"
       author="Bikram Rai"
       description="Explore the projects by Bikram Rai, a Full-Stack Software Engineer specializing in MERN stack development. View web applications, backend systems, and innovative solutions that showcase his expertise."
