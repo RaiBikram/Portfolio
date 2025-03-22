@@ -17,7 +17,7 @@ export default function Projects() {
         <p className="text-slate-300 pb-10 sm:pb-16 text-center font-extralight text-xs sm:text-sm pt-3">
           Here are a few projects I've worked on recently.
         </p>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 px-4 sm:px-6">
           {PROJECTS.map((proj, index) => (
             <div
@@ -31,7 +31,7 @@ export default function Projects() {
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
-              
+
               <div className="p-4 flex flex-col flex-grow">
                 <h3 className="text-lg font-medium mb-2">{proj.title}</h3>
                 <p className="text-xs sm:text-sm text-neutral-400 mb-3 flex-grow">
@@ -39,7 +39,7 @@ export default function Projects() {
                     ? `${proj.description.slice(0, 120)}...`
                     : proj.description}
                 </p>
-                
+
                 <div className="flex flex-wrap mb-3">
                   {proj.technologies.map((tech, techIndex) => (
                     <span
@@ -50,7 +50,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex justify-between mt-auto pt-2">
                   <a
                     href={proj.link}
@@ -60,14 +60,16 @@ export default function Projects() {
                   >
                     Live Demo
                   </a>
-                  <a
-                    href={proj.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs bg-gray-700 text-white px-3 py-1 rounded hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center"
-                  >
-                    GitHub
-                  </a>
+                  {proj?.github && (
+                    <a
+                      href={proj.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-gray-700 text-white px-3 py-1 rounded hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
