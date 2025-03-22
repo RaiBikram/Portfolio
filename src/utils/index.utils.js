@@ -1,8 +1,11 @@
 import kinmel from "../media/kinmel.png";
 import OAuthGoogle from "../media/oauth.png";
-import portfolio from "../media/portfolio-website.png";
+// import portfolio from "../media/portfolio-website.png";
 import weather_widget from "../media/weather-widget.png";
 import AI_Health_Assistant from "../media/ai-health-asistant.png";
+import prashant_traders from "../media/prashantatraders.png";
+import gagan_sanitary from "../media/gagansanitary.png";
+import { title } from "framer-motion/client";
 
 export const HERO_CONTENT = `A passionate MERN stack developer focused on building dynamic, efficient web applications and always eager to learn and innovate.`;
 
@@ -61,6 +64,24 @@ export const PROJECTS = [
     github: "https://github.com/ItsBikramRai/Kinmel",
   },
   {
+    title:
+      "Prashant Traders - Wholesale Distribution Platform for Daily Essentials",
+    image: prashant_traders,
+    description:
+      "I contributed to the development of a platform for a trusted wholesale supplier, serving businesses nationwide since 2003. My role involved front-end development and integrating a product catalog, ensuring a seamless, responsive experience for users. This project highlights my ability to work with cross-functional teams and deliver high-quality solutions.",
+    technologies: ["nextjs", "Tailwind"],
+    link: "https://www.prashanttraders.com",
+    // github: "https://github.com/ItsBikramRai/Kinmel",
+  },
+  {
+    title: "Gagan Sanitary - Sanitary Services with Japanese Technology",
+    image: gagan_sanitary,
+    description:
+      "I worked on the development of Gagan Sanitary's platform, which provides top-quality sanitary services using modern Japanese technology. The goal was to create a seamless online experience for customers seeking septic tank cleaning, kitchen pipe unblocking, and new installations.",
+    technologies: ["nextjs", "Tailwind"],
+    link: "https://gagan-sanitary.vercel.app",
+  },
+  {
     title: "AuthPlus: Google and Email-Based Authentication",
     image: OAuthGoogle,
     description:
@@ -83,15 +104,15 @@ export const PROJECTS = [
   //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
   //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
   // },
-  {
-    title: "Portfolio Website",
-    image: portfolio,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information. This website serves as a platform to highlight my work and demonstrate my abilities as a web developer.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    link: "https://bikram-rai.com.np",
-    github: "https://github.com/ItsBikramRai/Portfolio",
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: portfolio,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information. This website serves as a platform to highlight my work and demonstrate my abilities as a web developer.",
+  //   technologies: ["HTML", "CSS", "React", "Tailwind"],
+  //   link: "https://bikram-rai.com.np",
+  //   github: "https://github.com/ItsBikramRai/Portfolio",
+  // },
 
   {
     title: "Weather Widget",
